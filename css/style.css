@@ -1,0 +1,617 @@
+*{
+	margin:0px;
+	padding: 0px;
+}
+body{
+	font-family: sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: sans-serif;
+}
+a,a:hover{
+	text-decoration: none;
+}
+
+/**************************************************************
+       ************header section start*****************
+**************************************************************/
+.header-section{
+	width: 100%;
+	background: url(../images/bnnr.png)center top no-repeat;
+	
+}
+ .header-section .bg-light {
+    background-color: transparent!important;
+    padding: 20px 0px;
+}
+ .header-section .navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 12px;
+}
+ .header-section .navbar-light .navbar-nav .nav-link:hover {
+    color: #fff;
+    background: url(../images/br.png)center bottom no-repeat;
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 12px;
+}
+ .header-section .navbar-light .navbar-nav .active>.nav-link{
+	 color: #fff;
+	 background: url(../images/br.png)center bottom no-repeat;
+}
+
+/**************************************************************
+       ************header section end*****************
+**************************************************************/
+
+
+
+
+/**************************************************************
+       ************banner section start*****************
+**************************************************************/
+.banner{
+	width: 100%;
+	padding: 95px 0px;
+}
+.banner-inner{
+    width: 100%;
+	padding: 50px 0px;	
+}
+.banner-inner h4{
+    font-size: 22px;
+    color: #0c6b9f;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.banner-inner h1{
+    font-size: 44px;
+    line-height: 42px;
+    color:#fff;
+    font-weight: 700;
+    margin-bottom: 30px;
+
+}
+.banner-inner p{
+    font-size: 14px;
+    color: #7f7f7f;
+    font-weight: 400;
+    margin-bottom: 15px;
+
+}
+.div-btn{
+    width: 100%;
+    margin-top: 40px;
+}
+.div-btn .btn-info{
+    padding: 10px 35px;
+    background: #0c6b9f;
+    color: #fff;
+    border: 1px solid #0c6b9f;
+    border-radius: 2px;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+   
+}
+.div-btn .btn-info:hover {
+    background: transparent;
+    color: #0c6b9f;
+    border: 1px solid #0c6b9f;
+    transition: 1s ease-in;
+} 
+
+.div-btn .btn-primary{
+	padding: 10px 35px;
+    background:transparent;
+    color: #fff;
+    border: 1px solid #7f7f7f;
+    border-radius: 2px;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-left: 40px;
+}
+.div-btn .btn-primary:hover{
+    background:#0c6b9f;
+    color:#fff;
+    border: 1px solid #0c6b9f;
+    transition: 1s ease-in;
+}
+
+/**************************************************************
+       ************banner section end*****************
+**************************************************************/
+
+/**************************************************************
+       ************feature section start*****************
+**************************************************************/
+.feature-section{
+	width: 100%;
+	padding: 80px 0px;
+}
+.feature-title{
+
+}
+.feature-title h1{
+    font-size:34px;
+    line-height: 32px;
+    font-weight: 700;
+    margin-bottom:20px;
+}
+.feature-title h4{
+    font-size:16px;
+    color: #008ed6;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.feature-inner{
+	width: 100%;
+	padding: 60px 10px;
+}
+.feature-inner h4{
+    margin-top: 20px;
+}
+.feature-inner p{
+    margin-top: 15px;
+    color: #7f7f7f; 
+}
+/**************************************************************
+       ************feature section end*****************
+**************************************************************/
+
+/**************************************************************
+       ************device section start*****************
+**************************************************************/
+
+.device-section{
+	width: 100%;
+	padding: 80px 0px;
+	border-top: 1px solid #eee;
+}
+.device-right{
+	width: 100%
+
+}
+.device-right h4{
+    font-size:16px;
+    color: #008ed6;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.device-right h1{
+    font-size:34px;
+    line-height: 32px;
+    font-weight: 700;
+    margin-bottom:20px;
+}
+.device-right p{
+    margin-top: 15px;
+    color: #7f7f7f; 
+}
+.device-btm p{
+	color:#010005;
+	font-size: 14px;
+	font-weight: 400;
+}
+/**************************************************************
+       ************device section end*****************
+**************************************************************/
+
+
+/**************************************************************
+       ************about-short section start*****************
+**************************************************************/
+.about-short{
+	width: 100%;
+	padding:50px 0px;
+	background:#eee;
+}
+.about-left{
+	width: 100%
+
+}
+.about-left h4{
+    font-size:16px;
+    color: #008ed6;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+.about-left h1{
+    font-size:34px;
+    line-height: 32px;
+    font-weight: 700;
+    margin-bottom:20px;
+}
+.about-left p{
+    margin-top: 15px;
+    color: #7f7f7f;
+}
+.about-right img{
+	margin-left: -38px;
+}
+
+/**************************************************************
+       ************about-short section end*****************
+**************************************************************/
+
+/**************************************************************
+       ************testmonial section start*****************
+**************************************************************/
+.testmonial-section{
+	width: 100%;
+	padding: 80px 0px;
+	background: url(../images/test.png)center top no-repeat;
+	background-size: cover;
+}
+.testmonial-header h4{
+    font-size:16px;
+    color: #008ed6;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.testmonial-header h1{
+	color: #fff;
+    font-size:34px;
+    font-weight: 700;
+    margin-bottom:20px;
+}
+
+
+
+.testmonial-text{
+	color: #fff;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 20px 0px;
+	margin-top: 20px;
+	
+}
+.testmonial-info{
+	width: 100%;
+	padding: 30px 0px;
+	position: relative;
+}
+.testmonial-info strong {
+    margin-top: -22px;
+    margin-left:64px;
+    color: #fff;
+    position: absolute;
+}
+.testmonial-info span {
+    position: absolute;
+    margin-left: 76px;
+    margin-top: -26px;
+    color: #fff;
+}
+.testmonial-info img{
+	position: absolute;
+	margin-top:-32px;
+}
+.testmonial-pgn img{
+    margin-top: 120px;
+}
+/**************************************************************
+       ************testmonial section end*****************
+**************************************************************/
+
+/**************************************************************
+       ************eye section start*****************
+**************************************************************/
+.eye-section{
+	width: 100%;
+	height:150px;
+	background:#15141a;
+}
+.eye-inner{
+
+}
+.eye-inner p{
+    color: #fff;
+    margin: 31px 0px;
+    padding-top: 27px;
+    font-size: 25px;
+    font-weight: 700;
+
+}
+.eye-inner span{
+    color: #fff;
+    font-size: 25px;
+    font-weight:400;
+}
+.eye-btm{
+	margin: 31px 0px;
+    padding-top: 27px;
+}
+.eye-btm .btn-info {
+    padding: 9px 24px;
+    background: transparent;
+    color: #fff;
+    border: 1px solid #7f7f7f;
+    border-radius: 2px;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-left: -10px;
+}
+.eye-btm .btn-info:hover{
+	background:#0c6b9f;
+    color:#fff;
+    border: 1px solid #0c6b9f;
+    transition: 1s ease-in;
+}
+.eye-btm .btn-primary{
+	padding: 9px 18px;
+    background: #0c6b9f;
+    color: #fff;
+   
+    border-radius: 2px;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.eye-btm .btn-primary:hover{
+	background: transparent;
+    color: #0c6b9f;
+    border: 1px solid #0c6b9f;
+    transition: 1s ease-in;
+}
+
+/**************************************************************
+       ************eye section end*****************
+**************************************************************/
+
+/**************************************************************
+       ************pricing section start*****************
+**************************************************************/
+.pricing-section{
+	width:100%;
+	padding: 80px 0px; 
+}
+
+.pricing-head h4{
+    font-size:16px;
+    color: #008ed6;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+
+}
+.pricing-head h1{
+    color: #15141a;
+    font-size:34px;
+    font-weight: 700;
+    margin-bottom:20px;
+}
+.pricing-head img{
+
+}
+.pricing-section .col-md-3{
+	width:80%;
+	border: 1px solid #eee;
+	margin-top: 80px;
+}
+.pricing-inner h3{
+	width:100%; 
+    font-size: 24px;
+    font-weight: 700;
+    padding: 8px;
+    border-bottom:1px solid #eee;
+    
+    
+}
+.pricing-inner h3:hover{
+	width:100%; 
+    font-size: 24px;
+    font-weight: 700;
+    padding: 8px;
+    border-bottom:1px solid #eee;
+    color: #008ed6;
+}
+
+.pricing-rate{
+    border-bottom:1px solid #eee;
+    padding:26px;
+    margin: 0px auto;
+}
+.pricing-rate:hover{
+	background:#008ed6;
+	color: #fff;
+	border-bottom:1px solid #008ed6; 
+}
+ .rate-inner h1{
+    font-size:60px;
+    font-weight: 700;
+}
+ .rate-inner sup {
+    top: -0.5em;
+}
+ .rate-inner sub, sup {
+    position: relative;
+    font-size: 59%;
+    line-height: 0;
+    vertical-align: baseline;
+}
+.rate-inner p{
+	color:#7f7f7f;
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+
+}
+.rate-inner p:hover{
+	color:#fff;
+    font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+}
+.pricing-text{
+	
+	margin-top: 2px;
+}
+ 
+.pricing-text p{
+     margin-top:30px;
+     color: #7f7f7f;
+     padding: 10px 0px;
+}
+.pricing-text span{
+    color: #008ed6;
+}
+.pricing-btn{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.pricing-btn .btn-info{
+   background: transparent;
+   color: #008ed6;
+   font-size: 14px;
+   font-weight: 700;
+   border: 1px solid #eee;
+   
+}
+.pricing-btn .btn-info:hover{
+   background:#008ed6;
+   color: #fff;
+   font-size: 14px;
+   font-weight: 700;
+   border: 1px solid #008ed6;
+   
+}
+/**************************************************************
+       ************pricing section end*****************
+**************************************************************/
+
+
+/**************************************************************
+       ************contact section start*****************
+**************************************************************/
+.contact{
+	width:100%;
+	padding: 80px 0px;
+	background: #ededed;
+}
+
+.contact h4{
+    font-size:16px;
+    color: #008ed6;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+
+}
+.contact h1{
+    color: #15141a;
+    font-size:34px;
+    font-weight: 700;
+    margin-bottom:30px;
+}
+.contact img{
+
+   margin-bottom: 100px;
+}
+ .contact .contact-inner img{
+    margin-bottom: 20px;
+}
+.contact .contact-inner p{
+    color: #999999;
+}
+.map-section {
+    width: 100%;
+    background-image: url(../images/map.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 300px 0px;
+    margin-top: 300px;
+    margin-bottom: -80px;
+}
+.map-section{
+    position: relative;
+}
+.main-box-map {
+    position: absolute;
+    width: 50%;
+    background-color: #15141a;
+    top: -22%;
+    left: 50%;
+    transform: translate(-50%, -29%);
+    padding: 90px 70px;
+}
+        
+
+form .from-inner {
+    background-color: transparent;
+    padding: 19px;
+    border: 1px solid;
+}
+
+form .from-inner::placeholder,
+.form-group .mess-inner::placeholder {
+    font-weight: 700;
+    font-size: 11px;
+    text-transform: uppercase;
+}
+
+.form-group .mess-inner {
+    margin-bottom: 0px;
+    background-color: transparent;
+    border: 1px solid;
+}
+.form-group .send-btn {
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 20px;
+    font-size: 14px;
+    color: white;
+    padding: 12px 20px;
+    background-color: #008ed6;
+    border: none;
+}
+
+
+/**************************************************************
+       ************contact section end*****************
+**************************************************************/
+
+/**************************************************************
+       ************footer section start*****************
+**************************************************************/
+
+.footer-section {
+    padding: 50px 0px;
+    background-color: #15141a;
+}
+.nav-bar li {
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+}
+.nav-bar li a {
+    display: block;
+    padding: 0px 15px;
+    color: white;
+}
+.nav-bar li a:hover{
+    color: #008ed6;
+}
+.footer-nav p {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+/**************************************************************
+       ************footer section end*****************
+**************************************************************/
