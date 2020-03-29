@@ -3,12 +3,12 @@
 	padding: 0px;
 }
 body{
-	font-family: sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 14px;
 	line-height: 24px;
 }
 h1,h2,h3,h4,h5,h6{
-	font-family: sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 }
 a,a:hover{
 	text-decoration: none;
@@ -250,58 +250,69 @@ a,a:hover{
 **************************************************************/
 .testmonial-section{
 	width: 100%;
-	padding: 80px 0px;
+	padding: 70px 0px;
 	background: url(../images/test.png)center top no-repeat;
 	background-size: cover;
 }
-.testmonial-header h4{
+.testmonials-title h4{
     font-size:16px;
     color: #008ed6;
     font-weight: 700;
     text-transform: uppercase;
     margin-bottom: 20px;
 }
-.testmonial-header h1{
+.testmonials-title h1{
 	color: #fff;
     font-size:34px;
     font-weight: 700;
     margin-bottom:20px;
 }
+.testmonials-title img{
+	margin-bottom: 30px;
+}
 
+.testmonial .owl-carousel{
+	padding:60px 0px;
+}
+.testi-inner{
+	width: 100%;
+}
 
-
-.testmonial-text{
+.testi-inner h4{
 	color: #fff;
-	font-size: 16px;
+	font-size: 18px;
+	line-height: 24px;
 	font-weight: 400;
 	padding: 20px 0px;
-	margin-top: 20px;
+	margin-top: 40px;
+	font-style: italic;
 	
 }
-.testmonial-info{
-	width: 100%;
-	padding: 30px 0px;
-	position: relative;
+.testi-inner .media img{
+	width:80px;
+	
 }
-.testmonial-info strong {
-    margin-top: -22px;
-    margin-left:64px;
-    color: #fff;
-    position: absolute;
+.testi-inner .media-body h5 {
+    color: #d0d0d0;
+   
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-top: 15px !important;
 }
-.testmonial-info span {
-    position: absolute;
-    margin-left: 76px;
-    margin-top: -26px;
-    color: #fff;
+.testi-inner .media-body p{
+	color:#d0d0d0;
+	font-size:16px;
+	line-height: 22px;
+	font-weight: 500;
 }
-.testmonial-info img{
-	position: absolute;
-	margin-top:-32px;
+.owl-theme .owl-dots, .owl-theme .owl-nav {
+    text-align: center;
+    -webkit-tap-highlight-color: transparent;
+    margin-top: 80px;
 }
-.testmonial-pgn img{
-    margin-top: 120px;
-}
+
 /**************************************************************
        ************testmonial section end*****************
 **************************************************************/
@@ -380,116 +391,81 @@ a,a:hover{
 	width:100%;
 	padding: 80px 0px; 
 }
+.main-price{
+	width: 100%;
+	margin-top: 70px;
+}
+.main-price .card .card-header {
+    background: transparent;
+    padding: 15px 0px;
+}
+.main-price .card .card-header h3 {
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 5px;
+}
+.main-price .card .card-body{
+	padding: 0px
+}
+.main-price .card .card-title{
+    margin-bottom: 0px;
+}
+.main-price .card .card-title h1{
+	font-size: 60px;
+	font-weight: 600;
+	margin: 0px;
+}
+.main-price .card .card-title p{
+	font-size: 14px;
+	font-weight: 400;
+	margin: 0px;
+	color: #aaa;
+}
+ .main-price .title-price {
+   
+    padding: 30px 0px;
+}
+.price-inner{
+	width: 100%;
+	padding: 40px 20px 20px;
+	border-top: 1px solid #eee;
+}
 
-.pricing-head h4{
-    font-size:16px;
+.price-inner p{
+    font-size: 14px;
+    line-height: 24px;
+    color: #aaa;
+}
+.btn-primary {
     color: #008ed6;
+    background-color:transparent;
+    border-color: #eee;
+    margin-top: 15px;
+    font-size: 14px;
     font-weight: 700;
-    text-transform: uppercase;
-    margin-bottom: 20px;
-
+    border: 1px solid #cccccc;
 }
-.pricing-head h1{
-    color: #15141a;
-    font-size:34px;
-    font-weight: 700;
-    margin-bottom:20px;
+.main-price:hover .card-header h3{
+    color:#008ed6; 
 }
-.pricing-head img{
-
+.main-price:hover .card-title h1,.main-price:hover .card-title p{
+	background:#008ed6;
+	color: #fff; 
 }
-.pricing-section .col-md-3{
-	width:80%;
-	border: 1px solid #eee;
-	margin-top: 80px;
+.main-price:hover .title-price{
+	background:#008ed6;
+	color: #fff; 
 }
-.pricing-inner h3{
-	width:100%; 
-    font-size: 24px;
-    font-weight: 700;
-    padding: 8px;
-    border-bottom:1px solid #eee;
-    
-    
-}
-.pricing-inner h3:hover{
-	width:100%; 
-    font-size: 24px;
-    font-weight: 700;
-    padding: 8px;
-    border-bottom:1px solid #eee;
-    color: #008ed6;
-}
-
-.pricing-rate{
-    border-bottom:1px solid #eee;
-    padding:26px;
-    margin: 0px auto;
-}
-.pricing-rate:hover{
+.main-price:hover .btn-primary{
 	background:#008ed6;
 	color: #fff;
-	border-bottom:1px solid #008ed6; 
+	border: 1px solid #cccccc;
 }
- .rate-inner h1{
-    font-size:60px;
-    font-weight: 700;
-}
- .rate-inner sup {
-    top: -0.5em;
-}
- .rate-inner sub, sup {
-    position: relative;
-    font-size: 59%;
-    line-height: 0;
-    vertical-align: baseline;
-}
-.rate-inner p{
-	color:#7f7f7f;
-	font-size: 14px;
-	line-height: 24px;
-	font-weight: 400;
 
-}
-.rate-inner p:hover{
-	color:#fff;
-    font-size: 14px;
-	line-height: 24px;
-	font-weight: 400;
-}
-.pricing-text{
-	
-	margin-top: 2px;
-}
- 
-.pricing-text p{
-     margin-top:30px;
-     color: #7f7f7f;
-     padding: 10px 0px;
-}
-.pricing-text span{
-    color: #008ed6;
-}
-.pricing-btn{
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-.pricing-btn .btn-info{
-   background: transparent;
-   color: #008ed6;
-   font-size: 14px;
-   font-weight: 700;
-   border: 1px solid #eee;
-   
-}
-.pricing-btn .btn-info:hover{
-   background:#008ed6;
-   color: #fff;
-   font-size: 14px;
-   font-weight: 700;
-   border: 1px solid #008ed6;
-   
-}
+
+
+
+
 /**************************************************************
        ************pricing section end*****************
 **************************************************************/
@@ -530,22 +506,20 @@ a,a:hover{
 }
 .map-section {
     width: 100%;
-    background-image: url(../images/map.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    padding: 300px 0px;
     margin-top: 300px;
-    margin-bottom: -80px;
+   position: relative;
 }
 .map-section{
     position: relative;
+}
+.map {
+    margin-top: -40px;
 }
 .main-box-map {
     position: absolute;
     width: 50%;
     background-color: #15141a;
-    top: -22%;
+    top: -150px;
     left: 50%;
     transform: translate(-50%, -29%);
     padding: 90px 70px;
@@ -569,6 +543,7 @@ form .from-inner::placeholder,
     margin-bottom: 0px;
     background-color: transparent;
     border: 1px solid;
+    height:153px
 }
 .form-group .send-btn {
     font-weight: 700;
@@ -593,7 +568,9 @@ form .from-inner::placeholder,
 .footer-section {
     padding: 50px 0px;
     background-color: #15141a;
+    margin-top: -84px;
 }
+
 .nav-bar li {
     display: inline-block;
     list-style: none;
