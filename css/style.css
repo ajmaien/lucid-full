@@ -116,6 +116,7 @@ a,a:hover{
     font-weight: 700;
     text-transform: uppercase;
     margin-left: 40px;
+    margin-top: -1px;
 }
 .div-btn .btn-primary:hover{
     background:#0c6b9f;
@@ -365,8 +366,9 @@ a,a:hover{
 .eye-btm .btn-primary{
 	padding: 9px 18px;
     background: #0c6b9f;
+    border: 1px solid #0c6b9f;
     color: #fff;
-   
+    margin-top: -1px;
     border-radius: 2px;
     font-size: 14px;
     font-weight: 700;
