@@ -54,9 +54,9 @@ a,a:hover{
 /**************************************************************
        ************banner section start*****************
 **************************************************************/
-.banner{
-	width: 100%;
-	padding: 95px 0px;
+.banner {
+    width: 100%;
+    padding: 100px 0px;
 }
 .banner-inner{
     width: 100%;
@@ -84,9 +84,10 @@ a,a:hover{
     margin-bottom: 15px;
 
 }
-.div-btn{
+.div-btn {
     width: 100%;
-    margin-top: 40px;
+    margin-top: 26px;
+    
 }
 .div-btn .btn-info{
     padding: 10px 35px;
@@ -132,9 +133,9 @@ a,a:hover{
 /**************************************************************
        ************feature section start*****************
 **************************************************************/
-.feature-section{
-	width: 100%;
-	padding: 80px 0px;
+.feature-section {
+    width: 100%;
+    padding: 0px 0px;
 }
 .feature-title{
 
@@ -188,11 +189,11 @@ a,a:hover{
     margin-top: 40px;
     margin-bottom: 20px;
 }
-.device-right h1{
-    font-size:34px;
+.device-right h1 {
+    font-size: 36px;
     line-height: 32px;
     font-weight: 700;
-    margin-bottom:20px;
+    margin-bottom: 20px;
 }
 .device-right p{
     margin-top: 15px;
@@ -329,17 +330,16 @@ a,a:hover{
 .eye-inner{
 
 }
-.eye-inner p{
+.eye-inner p {
     color: #fff;
     margin: 31px 0px;
     padding-top: 27px;
-    font-size: 25px;
-    font-weight: 700;
-
+    font-size: 36px;
+    font-weight: 600;
 }
 .eye-inner span{
     color: #fff;
-    font-size: 25px;
+    font-size: 34px;
     font-weight:400;
 }
 .eye-btm{
@@ -347,15 +347,16 @@ a,a:hover{
     padding-top: 27px;
 }
 .eye-btm .btn-info {
-    padding: 9px 24px;
+    padding: 10px 30px;
     background: transparent;
     color: #fff;
     border: 1px solid #7f7f7f;
     border-radius: 2px;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 700;
     text-transform: uppercase;
     margin-left: -10px;
+
 }
 .eye-btm .btn-info:hover{
 	background:#0c6b9f;
@@ -364,13 +365,13 @@ a,a:hover{
     transition: 1s ease-in;
 }
 .eye-btm .btn-primary{
-	padding: 9px 18px;
+	padding: 10px 30px;
     background: #0c6b9f;
     border: 1px solid #0c6b9f;
     color: #fff;
     margin-top: -1px;
     border-radius: 2px;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 700;
     text-transform: uppercase;
 }
@@ -440,10 +441,10 @@ a,a:hover{
 }
 .btn-primary {
     color: #008ed6;
-    background-color:transparent;
+    background-color: transparent;
     border-color: #eee;
-    margin-top: 15px;
-    font-size: 14px;
+    margin-top: 30px;
+    font-size: 16px;
     font-weight: 700;
     border: 1px solid #cccccc;
 }
@@ -568,7 +569,7 @@ form .from-inner::placeholder,
 **************************************************************/
 
 .footer-section {
-    padding: 50px 0px;
+    padding: 18px 0px;
     background-color: #15141a;
     margin-top: -84px;
 }
@@ -577,11 +578,13 @@ form .from-inner::placeholder,
     display: inline-block;
     list-style: none;
     text-align: center;
+
 }
 .nav-bar li a {
     display: block;
-    padding: 0px 15px;
+    padding: 10px 15px;
     color: white;
+    margin-top: 10px;
 }
 .nav-bar li a:hover{
     color: #008ed6;
