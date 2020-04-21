@@ -10,7 +10,8 @@
 
     <!-- font awesome CSS -->
      <link rel="stylesheet" href="css/font-awesome.min.css">
-
+      <!-- aos animate CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
      <!-- owl carousel CSS -->
      <link rel="stylesheet" href="css/owl.carousel.min.css">
      <link rel="stylesheet" href="css/owl.theme.default.min.css">
@@ -26,7 +27,8 @@
   <body>
     <!--header section start-->
     <header class="header-section">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="main-nav navbar-wrapper"data-aos="fade-right">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
        <div class="container">
           <a class="navbar-brand" href="index.html">
             <img src="images/lucid.png" alt="">
@@ -59,19 +61,28 @@
                 </ul>
              </div>
        </div>
+       <div class="form text-right">
+                 <div class="container ">
+                      <div class="searchbar">
+                        <input class="search_input" type="text" name="" placeholder="Search...">
+                        <a href="#" class="search_icon"><i class="fa fa-search"></i></a>
+                      </div>
+                  </div>
+                </div>
       </nav>
+      </div>
       <!--banner section start-->
         <div class="banner">
           <div class="container">
             <div class="row">
               <div class="col-md-12">
-                <div class="banner-inner">
+                <div class="banner-inner"data-aos="fade-left">
                   <h4>introducing lucid theme</h4>
                   <h1>Carefully crafted and <br> beautiful landing <br>page.</h1>
                   <p>Etiam ullamcorper et turpis eget hendrerit. Praesent varius <br>risus mi, at elementum magna ultricies accumsan. Cras <br>venenatis lacus sed dolor placerat tempus. Morbi blandit at <br> neque ut imperdiet.</p>
                   <div class="div-btn">
-                    <a href="#" class="btn btn-info">Download Now</a>
-                    <a href="#" class="btn btn-primary">View Feature</a>
+                    <a href="#" class="btn btn-info"data-aos="fade-left">Download Now</a>
+                    <a href="#" class="btn btn-primary"data-aos="fade-right">View Feature</a>
                   </div>
                 </div>
               </div>
@@ -87,14 +98,14 @@
       <div class="container">
            <div class="row">
              <div class="col-md-12">
-               <div class="feature-title text-center">
+               <div class="feature-title text-center"data-aos="flip-left">
                  <h4>product overview</h4>
                   <h1>List of amazing features</h1>
                   <img src="images/br.png" alt="">
                </div>
              </div>
 
-                <div class="col-md-3">
+                <div class="col-md-3"data-aos="fade-down-right">
                   <div class="feature-inner text-center">
                     <img src="images/feature 1.png" alt="">
                      <h4>Responsive</h4>
@@ -102,7 +113,7 @@
                   </div>
                 </div>
 
-                 <div class="col-md-3">
+                 <div class="col-md-3"data-aos="fade-down-left">
                   <div class="feature-inner text-center">
                     <img src="images/feature 2.png" alt="">
                      <h4>Customizable</h4>
@@ -111,7 +122,7 @@
                 </div>
 
                 <div class="col-md-3">
-                  <div class="feature-inner text-center">
+                  <div class="feature-inner text-center"data-aos="fade-down-right">
                     <img src="images/feature 3.png" alt="">
                      <h4>Lovely design</h4>
                        <p>Fusce fermentum placerat <br> magna ac pharetra. Aliquam <br>euismod elit non ipsum lacinia <br> consectetur.</p>
@@ -119,7 +130,7 @@
                 </div> 
 
                 <div class="col-md-3">
-                  <div class="feature-inner text-center">
+                  <div class="feature-inner text-center"data-aos="fade-down-left">
                     <img src="images/feature 4.png" alt="">
                      <h4>Mobile Friendly</h4>
                        <p>Fusce fermentum placerat <br> magna ac pharetra. Aliquam <br>euismod elit non ipsum lacinia <br> consectetur.</p>
@@ -135,13 +146,13 @@
         <div class="container">
           <div class="row">
             <div class="col-md-6">
-              <div class="device-left">
+              <div class="device-left"data-aos="zoom-in">
                 <img src="images/device.png" alt="">
               </div>
             </div>
 
             <div class="col-md-6">
-              <div class="device-right">
+              <div class="device-right"data-aos="zoom-in-up">
                 <h4>dip into the details</h4>
                 <h1>Beautiful on every device</h1>
                 <img src="images/br.png" alt="" class="img-fluid">
@@ -164,7 +175,7 @@
         <div class="container">
           <div class="row">
              <div class="col-md-5">
-              <div class="about-left">
+              <div class="about-left"data-aos="zoom-in">
                 <h4>dip into the details</h4>
                 <h1>Super easy to customize</h1>
                 <img src="images/br.png" alt="" class="img-fluid">
@@ -173,7 +184,7 @@
             </div>
 
             <div class="col-md-7">
-              <div class="about-right">
+              <div class="about-right"data-aos="zoom-in-up">
                 <img src="images/i 5.png" alt="">
               </div>
             </div>
@@ -185,7 +196,7 @@
     <!--about-short section end-->
 
     <!--testmonials section start-->
-      <section class="testmonial-section">
+      <section class="testmonial-section"data-aos="flip-right">
         <div class="container">
            <div class="row">
              <div class="col-md-12">
@@ -377,7 +388,7 @@
     <!--testmonials section end-->
 
     <!--eye section start-->
-      <section class="eye-section">
+      <section class="eye-section"data-aos="flip-down">
         <div class="container">
           <div class="row">
             <div class="col-md-8">
@@ -402,7 +413,7 @@
       <section class="pricing-section">
         <div class="container">
           <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-12"data-aos="fade-down-left">
              <div class="feature-title text-center">
                <h4>quality has its price</h4>
                <h1>Pricings & Plans</h1>
@@ -412,7 +423,9 @@
           </div>
            
             <div class="row">
-             <div class="col-md-3">
+             <div class="col-md-3"data-aos="fade-right"
+                 data-aos-offset="300"
+                 data-aos-easing="ease-in-sine">
                <div class="main-price text-center">
                  <div class="card">
                    <div class="card-header">
@@ -436,7 +449,9 @@
                   </div>
                </div>
              </div>
-             <div class="col-md-3">
+             <div class="col-md-3"data-aos="fade-right"
+               data-aos-offset="300"
+               data-aos-easing="ease-in-sine">
                <div class="main-price text-center">
                  <div class="card">
                    <div class="card-header">
@@ -460,7 +475,9 @@
                   </div>
                </div>
              </div>
-             <div class="col-md-3">
+             <div class="col-md-3"data-aos="fade-right"
+                 data-aos-offset="300"
+                 data-aos-easing="ease-in-sine">
                <div class="main-price text-center">
                  <div class="card">
                    <div class="card-header">
@@ -484,7 +501,9 @@
                   </div>
                </div>
              </div>
-             <div class="col-md-3">
+             <div class="col-md-3"data-aos="fade-right"
+               data-aos-offset="300"
+               data-aos-easing="ease-in-sine">
                <div class="main-price text-center">
                  <div class="card">
                    <div class="card-header">
@@ -519,7 +538,9 @@
        <section class="contact">
          <div class="container">
            <div class="row">
-             <div class="col-md-12">
+             <div class="col-md-12"data-aos="flip-left"
+                 data-aos-easing="ease-out-cubic"
+                 data-aos-duration="2000">
                <div class="contact-us text-center">
                  <h4>stay in touch</h4>
                  <h1>Contact us</h1>
@@ -527,21 +548,27 @@
                </div>
              </div>
 
-             <div class="col-md-4">
+             <div class="col-md-4"data-aos="flip-left"
+               data-aos-easing="ease-out-cubic"
+               data-aos-duration="2000">
                <div class="contact-inner text-center">
                  <img src="images/phone.png" alt="">
                  <p>Phone: (415) 124-5678 <br>Fax: (412) 123-8290</p>
                </div>
              </div>
 
-             <div class="col-md-4">
+             <div class="col-md-4"data-aos="flip-left"
+                   data-aos-easing="ease-out-cubic"
+                   data-aos-duration="2000">
                <div class="contact-inner text-center">
                  <img src="images/point.png" alt="">
                  <p>1001 Brickell Bay Dr. <br>Suite 1900 <br>Miami, FL 33131</p>
                </div>
              </div>
 
-             <div class="col-md-4">
+             <div class="col-md-4"data-aos="flip-left"
+                 data-aos-easing="ease-out-cubic"
+                 data-aos-duration="2000">
                <div class="contact-inner text-center">
                  <img src="images/sms.png" alt="">
                  <p>support@yourname.com</p>
@@ -596,7 +623,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12 footer-nav text-center">
-          <ul class="nav-bar">
+          <ul class="nav-bar"data-aos="fade-right">
             <li><a href="#"><i class="fa fa-behance"></i></a></li>
             <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
             <li><a href="#"><i class="fa fa-twitter"></i></a></li>
@@ -604,6 +631,7 @@
             <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
           </ul>
           <p>copyright © 2014 lucid onepage theme</p>
+          <a id="back-to-top" href="#" class="btn btn-primary btn-lg back-to-top" role="button" title="Click to return on the top page" data-toggle="tooltip" data-placement="left"><i class="fa fa-arrow-up"></i></a>
         </div>
       </div>
     </div>
@@ -618,11 +646,28 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/stickUp.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    <script>
+      AOS.init();
+    </script>
+     <script type="text/javascript">
+              //initiating jQuery
+              jQuery(function($) {
+                $(document).ready( function() {
+                  //enabling stickUp on the '.navbar-wrapper' class
+                  $('.navbar-wrapper').stickUp();
+                });
+              });
+
+      </script>
     <script>
       $('.owl-carousel').owlCarousel({
          loop:true,
          margin:10,
-         nav:true,
+         nav:false,
          autoplay:true,
          autoTimeout:5000,
          responsive:{

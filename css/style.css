@@ -6,12 +6,16 @@ body{
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 14px;
 	line-height: 24px;
+    overflow-x: hidden;
 }
 h1,h2,h3,h4,h5,h6{
 	font-family: 'Source Sans Pro', sans-serif;
 }
 a,a:hover{
 	text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
 }
 
 /**************************************************************
@@ -43,6 +47,54 @@ a,a:hover{
 	 color: #fff;
 	 background: url(../images/br.png)center bottom no-repeat;
 }
+/*****searchbar*****/
+
+
+.searchbar {
+    margin-bottom: auto;
+    margin-top: 3px;
+    height: 35px;
+    border-radius: 50%;
+    margin-right: 46px;
+}
+
+    
+ .search_input {
+    color: black;
+    border: 0;
+    outline: 0px;
+    background: none;
+    width: 0;
+    caret-color: transparent;
+    line-height: 29px;
+    transition: width 0.4s linear;
+}
+.searchbar:hover > .search_input{
+    padding: 0 10px;
+    width: 100px;
+    caret-color:red;
+    transition: width 0.4s linear;
+    top: -67px;
+    background: #fff;
+    }
+
+    .searchbar:hover > .search_icon{
+    background: transparent;
+    color: red;
+    
+    
+    }
+    .search_icon{
+    font-size: 30px
+    height: 31px;
+    width: 24px;
+    float: right;
+    border-radius: 50%;
+    padding: 0px;
+    margin-right: 10px;
+    
+    
+    }
 
 /**************************************************************
        ************header section end*****************
@@ -597,3 +649,218 @@ form .from-inner::placeholder,
 /**************************************************************
        ************footer section end*****************
 **************************************************************/
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+ .banner-inner h4 {
+    font-size: 16px;
+    color: #0c6b9f;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    margin-top: -79px;
+}
+.navbar-light .navbar-brand {
+    color: rgba(0,0,0,.9);
+    margin-left: 15px;
+}
+.navbar-toggler {
+   background-color: #fff;
+   margin-right: 15px;
+}
+.header-section .navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 12px;
+    color: rebeccapurple;
+}
+.banner-inner h1 {
+    font-size: 26px;
+    line-height: 33px;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.banner-inner p {
+    font-size: 10px;
+    color: #7f7f7f;
+    font-weight: 400;
+    margin-bottom: 15px;
+    line-height: 18px;
+}
+.div-btn .btn-info {
+    padding: 7px 23px;
+    background: #0c6b9f;
+    color: #fff;
+    border: 1px solid #0c6b9f;
+    border-radius: 2px;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.div-btn .btn-primary {
+    padding: 7px 29px;
+    
+    margin-left: 4px;
+    margin-top: 31px;
+}
+.testi-inner h4 {
+    
+    margin-left: 10px;
+}
+.eye-inner p {
+    
+    font-size: 21px;
+    font-weight: 600;
+}
+.eye-inner span {
+   
+    font-size: 25px;
+    font-weight: 400;
+}
+.eye-inner {
+    margin-top: -48px;
+}
+.eye-btm .btn-info {
+    padding: 5px 15px;
+   
+    font-size: 12px;
+    
+    margin-left: -10px;
+    margin-top: -127px;
+}
+.eye-btm .btn-primary {
+    padding: 5px 8px;
+   
+    font-size: 12px;
+   
+    margin-top: -127px;
+}
+.main-box-map {
+    position: absolute;
+    width: 99%;
+    background-color: #15141a;
+    top: -97px;
+    left: 50%;
+    transform: translate(-50%, -29%);
+    padding: 20px 23px;
+}
+.footer-section {
+    padding: 2px 0px;
+    background-color: #15141a;
+    margin-top: 0px;
+}
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+ .navbar-light .navbar-brand {
+    color: rgba(0,0,0,.9);
+    margin-left: 15px;
+}
+.navbar-toggler {
+   background-color: #fff;
+   margin-right: 15px;
+} 
+.eye-inner p {
+    
+    font-size: 21px;
+    font-weight: 600;
+}
+.eye-inner span {
+   
+    font-size: 25px;
+    font-weight: 400;
+}
+.eye-inner {
+    margin-top: -40px;
+}
+.eye-btm .btn-info {
+    padding: 5px 15px;
+   
+    font-size: 12px;
+    
+    margin-left: -10px;
+    margin-top: -127px;
+}
+.eye-btm .btn-primary {
+    padding: 5px 8px;
+   
+    font-size: 12px;
+   
+    margin-top: -127px;
+}
+.main-box-map {
+    position: absolute;
+    width: 99%;
+    background-color: #15141a;
+    top: -97px;
+    left: 50%;
+    transform: translate(-50%, -29%);
+    padding: 20px 23px;
+}
+.footer-section {
+    padding: 2px 0px;
+    background-color: #15141a;
+    margin-top: 0px;
+}
+
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .main-box-map {
+    position: absolute;
+    width: 99%;
+    background-color: #15141a;
+    top: -97px;
+    left: 50%;
+    transform: translate(-50%, -29%);
+    padding: 20px 141px;
+}
+  
+  
+}
+
+
+
+/****scroll btn css****/
+.back-to-top {
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display:block;
+}
+/*****stickup css code******/
+.isStuck{
+    left:0px;
+    width:100%;
+    
+    background: rebeccapurple;
+    
+}
+
+.navbar-wrapper {
+    margin-top: 0px;
+    position: relative;
+    z-index: 15;
+    width: 100%;
+    
+    
+}
