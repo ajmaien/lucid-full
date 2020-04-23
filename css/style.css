@@ -1,12 +1,14 @@
 *{
 	margin:0px;
 	padding: 0px;
+
 }
 body{
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 14px;
 	line-height: 24px;
     overflow-x: hidden;
+    
 }
 h1,h2,h3,h4,h5,h6{
 	font-family: 'Source Sans Pro', sans-serif;
@@ -16,6 +18,7 @@ a,a:hover{
 }
 html{
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 /**************************************************************
@@ -24,6 +27,7 @@ html{
 .header-section{
 	width: 100%;
 	background: url(../images/bnnr.png)center top no-repeat;
+    background-size: cover;
 	
 }
  .header-section .bg-light {
@@ -291,9 +295,7 @@ html{
     margin-top: 15px;
     color: #7f7f7f;
 }
-.about-right img{
-	margin-left: -38px;
-}
+
 
 /**************************************************************
        ************about-short section end*****************
@@ -376,7 +378,7 @@ html{
 **************************************************************/
 .eye-section{
 	width: 100%;
-	height:150px;
+	height:220px;
 	background:#15141a;
 }
 .eye-inner{
@@ -394,9 +396,9 @@ html{
     font-size: 34px;
     font-weight:400;
 }
-.eye-btm{
-	margin: 31px 0px;
-    padding-top: 27px;
+.eye-btm {
+    margin: 0px 0px;
+    padding-top: 49px;
 }
 .eye-btm .btn-info {
     padding: 10px 30px;
@@ -646,221 +648,261 @@ form .from-inner::placeholder,
     text-transform: uppercase;
     font-size: 14px;
 }
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color:#08c; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px;
+  transition: 1s; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color:purple; /* Add a dark-grey background on hover */
+}
 /**************************************************************
        ************footer section end*****************
 **************************************************************/
+
+/*****stickup css code******/
+
+.is-sticky .navbar-wrapper {
+    background:#08c!important;
+    transition: 1s;
+}
+
+
+
 /* 
   ##Device = Most of the Smartphones Mobiles (Portrait)
   ##Screen = B/w 320px to 479px
 */
 
 @media (min-width: 320px) and (max-width: 480px) {
-  
- .banner-inner h4 {
-    font-size: 16px;
-    color: #0c6b9f;
-    font-weight: 700;
-    text-transform: uppercase;
-    margin-bottom: 10px;
-    margin-top: -79px;
+  .header-section .bg-light {
+    background-color: transparent!important;
+    padding: 10px 35px;
 }
-.navbar-light .navbar-brand {
-    color: rgba(0,0,0,.9);
-    margin-left: 15px;
+.banner-inner h4 {
+    font-size: 20px;
+    
+   
 }
-.navbar-toggler {
-   background-color: #fff;
-   margin-right: 15px;
+.banner-inner p{
+    font-size: 19px;
 }
-.header-section .navbar-light .navbar-nav .nav-link {
-    color: #fff;
-    font-size: 14px;
-    font-weight: 600;
-    margin-left: 12px;
-    color: rebeccapurple;
-}
-.banner-inner h1 {
-    font-size: 26px;
-    line-height: 33px;
-    color: #fff;
-    font-weight: 700;
-    margin-bottom: 30px;
-}
-.banner-inner p {
-    font-size: 10px;
-    color: #7f7f7f;
-    font-weight: 400;
-    margin-bottom: 15px;
-    line-height: 18px;
+.banner-inner {
+    width: 100%;
+    padding: 20px 12px;
 }
 .div-btn .btn-info {
-    padding: 7px 23px;
-    background: #0c6b9f;
-    color: #fff;
-    border: 1px solid #0c6b9f;
-    border-radius: 2px;
-    font-size: 14px;
-    font-weight: 700;
-    text-transform: uppercase;
+    padding: 8px 16px;
+    margin-top: 20px;
 }
 .div-btn .btn-primary {
-    padding: 7px 29px;
-    
-    margin-left: 4px;
-    margin-top: 31px;
+    padding: 8px 25px;
+    margin-top: 30px;
+    margin-left: -1px;
+}
+.feature-title {
+    padding: 37px 0px;
+}
+.device-left img {
+    width: 281px;
+}
+.device-right p {
+    font-size: 11px;
+}
+.about-right img {
+    width: 391px;
+    padding: 37px;
 }
 .testi-inner h4 {
+    padding: 27px 32px;
+}
+.eye-section {
+    height: 184px;
     
-    margin-left: 10px;
+}
+.media {
+    padding: 10px 32px;
 }
 .eye-inner p {
-    
-    font-size: 21px;
-    font-weight: 600;
+    margin:10px 0px;
+    font-size: 19px;
+    margin-left: 5px;
 }
 .eye-inner span {
-   
-    font-size: 25px;
-    font-weight: 400;
+    font-size: 27px;
 }
-.eye-inner {
-    margin-top: -48px;
+.eye-btm {
+    margin: 28px 0px;
+    padding: 0px 5px;
 }
 .eye-btm .btn-info {
-    padding: 5px 15px;
-   
-    font-size: 12px;
-    
-    margin-left: -10px;
-    margin-top: -127px;
+    padding: 8px 11px;
+    font-size: 16px;
+    margin-left: -25px;
 }
 .eye-btm .btn-primary {
-    padding: 5px 8px;
-   
-    font-size: 12px;
-   
-    margin-top: -127px;
+    padding: 8px 11px;
+    font-size: 16px;
+    
 }
 .main-box-map {
-    position: absolute;
-    width: 99%;
-    background-color: #15141a;
-    top: -97px;
-    left: 50%;
-    transform: translate(-50%, -29%);
-    padding: 20px 23px;
+    width: 67%;
+    top: -129px;
+    padding: 33px 0px;
 }
-.footer-section {
-    padding: 2px 0px;
-    background-color: #15141a;
-    margin-top: 0px;
-}
-  
+.form-group .send-btn {
+    font-weight: 600;
+    padding: 7px 9px;
+   
 }
 
+}
 /* 
-  ##Device = Low Resolution Tablets, Mobiles
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
   ##Screen = B/w 481px to 767px
 */
 
 @media (min-width: 481px) and (max-width: 767px) {
- .navbar-light .navbar-brand {
-    color: rgba(0,0,0,.9);
-    margin-left: 15px;
+  
+.feature-title {
+    padding: 40px;
 }
-.navbar-toggler {
-   background-color: #fff;
-   margin-right: 15px;
-} 
+.feature-inner h4 {
+    font-size: 33px;
+}
+
+
 .eye-inner p {
     
-    font-size: 21px;
-    font-weight: 600;
+    line-height: 29px;
+}
+.testi-inner {
+    padding: 30px;
+    width: 100%;
+}
+
+.eye-btm {
+    margin: 12px 0px;
+    padding: 0px 5px;
+}
+.device-left img {
+    width: 476px;
+}
+
+.about-right img {
+    width: 515px;
+    padding: 81px 48px;
+}
+.eye-section {
+    height: 184px;
+    
+}
+.media {
+    padding: 10px 32px;
+}
+.eye-inner p {
+    margin:10px 0px;
+    font-size: 19px;
+    margin-left: 5px;
 }
 .eye-inner span {
-   
-    font-size: 25px;
-    font-weight: 400;
+    font-size: 27px;
 }
-.eye-inner {
-    margin-top: -40px;
+.eye-btm {
+    margin: 28px 0px;
+    padding: 0px 5px;
 }
 .eye-btm .btn-info {
-    padding: 5px 15px;
-   
-    font-size: 12px;
-    
-    margin-left: -10px;
-    margin-top: -127px;
+    padding: 8px 11px;
+    font-size: 16px;
+    margin-left: -25px;
 }
 .eye-btm .btn-primary {
-    padding: 5px 8px;
-   
-    font-size: 12px;
-   
-    margin-top: -127px;
+    padding: 8px 11px;
+    font-size: 16px;
+    
 }
 .main-box-map {
-    position: absolute;
-    width: 99%;
-    background-color: #15141a;
-    top: -97px;
-    left: 50%;
-    transform: translate(-50%, -29%);
-    padding: 20px 23px;
+    width: 67%;
+    top: -129px;
+    padding: 33px 0px;
 }
-.footer-section {
-    padding: 2px 0px;
-    background-color: #15141a;
-    margin-top: 0px;
+.form-group .send-btn {
+    font-weight: 600;
+    padding: 7px 9px;
+   
 }
 
   
 }
-
+ 
 /* 
   ##Device = Tablets, Ipads (landscape)
   ##Screen = B/w 768px to 1024px
 */
 
 @media (min-width: 768px) and (max-width: 1024px) {
-  .main-box-map {
-    position: absolute;
-    width: 99%;
-    background-color: #15141a;
-    top: -97px;
-    left: 50%;
-    transform: translate(-50%, -29%);
-    padding: 20px 141px;
+  .feature-title {
+    padding: 30px;
 }
+.device-left img {
+    width: 409px;
+    
+    padding-top: 43px;
+    margin-left: -30px;
+}
+
+.about-right img {
+    width: 515px;
+    padding: 156px 67px;
+}
+.eye-btm {
+    margin: 28px 0px;
+    padding: 0px 5px;
+}
+.eye-btm .btn-info {
+    padding: 8px 11px;
+    font-size: 16px;
+    margin-left: 0px;
+}
+.eye-btm .btn-primary {
+    padding: 8px 11px;
+    font-size: 16px;
+    margin-top: 17px;
+}
+.eye-inner p {
+    
+    line-height: 32px;
+}
+.main-box-map {
+    width: 59%;
+    padding: 102px 31px;
+}
+
+
   
-  
 }
 
 
 
-/****scroll btn css****/
-.back-to-top {
-    cursor: pointer;
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    display:block;
-}
-/*****stickup css code******/
-.isStuck{
-    left:0px;
-    width:100%;
-    
-    background: rebeccapurple;
-    
-}
 
-.navbar-wrapper {
-    margin-top: 0px;
-    position: relative;
-    z-index: 15;
-    width: 100%;
-    
-    
+
+/*****sticky css code******/
+
+.is-sticky .navbar-wrapper {
+    background:#08c !important;
+    transition: 1s;
 }
