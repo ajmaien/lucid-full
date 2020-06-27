@@ -673,12 +673,7 @@ form .from-inner::placeholder,
        ************footer section end*****************
 **************************************************************/
 
-/*****stickup css code******/
 
-.is-sticky .navbar-wrapper {
-    background:#08c!important;
-    transition: 1s;
-}
 
 
 
@@ -776,6 +771,10 @@ form .from-inner::placeholder,
 */
 
 @media (min-width: 481px) and (max-width: 767px) {
+.navbar-light .navbar-brand {
+    
+    margin-left: 15px;
+} 
   
 .feature-title {
     padding: 40px;
@@ -902,7 +901,4 @@ form .from-inner::placeholder,
 
 /*****sticky css code******/
 
-.is-sticky .navbar-wrapper {
-    background:#08c !important;
-    transition: 1s;
-}
+
