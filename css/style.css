@@ -387,9 +387,9 @@ html{
 }
 .eye-inner p {
     color: #fff;
-    margin: 31px 0px;
+    margin: 70px 0px;
     padding-top: 27px;
-    font-size: 36px;
+    font-size: 29px;
     font-weight: 600;
 }
 .eye-inner span{
@@ -398,7 +398,7 @@ html{
     font-weight:400;
 }
 .eye-btm {
-    margin: 0px 0px;
+    margin: 46px 0px;
     padding-top: 49px;
 }
 .eye-btm .btn-info {
@@ -407,11 +407,10 @@ html{
     color: #fff;
     border: 1px solid #7f7f7f;
     border-radius: 2px;
-    font-size: 16px;
+    font-size: 12px;
     font-weight: 700;
     text-transform: uppercase;
-    margin-left: -10px;
-
+    margin-left: -40px;
 }
 .eye-btm .btn-info:hover{
 	background:#0c6b9f;
@@ -419,14 +418,14 @@ html{
     border: 1px solid #0c6b9f;
     transition: 1s ease-in;
 }
-.eye-btm .btn-primary{
-	padding: 10px 30px;
+.eye-btm .btn-primary {
+    padding: 10px 23px;
     background: #0c6b9f;
     border: 1px solid #0c6b9f;
     color: #fff;
     margin-top: -1px;
     border-radius: 2px;
-    font-size: 16px;
+    font-size: 12px;
     font-weight: 700;
     text-transform: uppercase;
 }
